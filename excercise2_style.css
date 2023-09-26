@@ -5,14 +5,16 @@
             src: url;
     }
     @font-face {
-      font-family: 'IBM Plex Mono', monospace;
-      src: url;
+      font-family: "freight-text-pro", serif;
+      font-weight: 400;
+      font-style: normal;
+      src: href="https://use.typekit.net/nwb5pvy.css";
     }
     body {
         font-family: "monotype-grotesque", Arial, sans-serif;
         background-color: #f0f0f2;
-        margin-right: 20%;
-        margin-left: 20%;
+        margin-right: 30%;
+        margin-left: 5%;
         margin-bottom: 25px;
         margin-top: 50px;
     }
@@ -48,11 +50,13 @@
     margin-top: 0px;
   }
   h5 {
+    font-family: "freight-text-pro";
     font-weight: normal;
-    font-size: 16px;
+    font-size: 19px;
     margin-top: 0px;
     margin-bottom: 0px;
     color: #3e3e40;
+    line-height: 22px;
   }
   .underline {
     text-decoration: underline dashed;
