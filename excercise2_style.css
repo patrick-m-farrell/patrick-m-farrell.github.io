@@ -15,8 +15,8 @@
         background-color: #f0f0f2;
         margin-right: 30%;
         margin-left: 5%;
-        margin-bottom: 25px;
-        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-top: 25px;
     }
     a {
         background-color: #cfcfd1;
@@ -43,20 +43,21 @@
     text-align: center;
   }
   h6 {
-    color: #1b1b1c;
+    font-family: "freight-text-pro";
+    color: #3e3e40;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 0px;
     margin-top: 0px;
   }
   h5 {
     font-family: "freight-text-pro";
     font-weight: normal;
-    font-size: 19px;
+    font-size: 21px;
     margin-top: 0px;
     margin-bottom: 0px;
     color: #3e3e40;
-    line-height: 22px;
+    line-height: 23px;
   }
   .underline {
     text-decoration: underline dashed;
