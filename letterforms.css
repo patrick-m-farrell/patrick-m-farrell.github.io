@@ -6,6 +6,15 @@ body {
     margin-left: 150px;
     margin-top: 50px;
 }
+.test {
+    background-color: white;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+.test:hover{
+   color: pink;
+}
 .left {
     background-color: white;
     height: 300px;
@@ -27,7 +36,7 @@ body {
     top: 150px;
 }
 .bottom {
-    background-color: white;
+    background-color: yellow;
     height: 50px;
     width: 200px;
     position: absolute;
@@ -136,4 +145,53 @@ body {
     transform: rotate(30deg);
     margin-left: 100px;
     margin-top: 1335px;
+}
+.rectangle {
+    background-color: white;
+    height: 570px;
+    width: 300px;
+    position: absolute;
+    margin-top: 855px;
+    margin-left: 400px;
+}
+.rectangle-t-1 {
+    background-color: magenta;
+    height: 200px;
+    width: 225px;
+    margin-top: 925px;
+    margin-left: 475px;
+    position: absolute;
+    opacity: 100%;
+    transition-duration: 0.5s;
+}
+.rectangle-t-2 {
+    background-color: magenta;
+    height: 200px;
+    width: 225px;
+    margin-top: 1170px;
+    margin-left: 475px;
+    position: absolute;
+    opacity: 100%;
+    transition-duration: 1s;
+}
+:hover.rectangle-t-2 {
+    transition-timing-function: ease-in-out;
+    opacity: 0%
+}
+:hover.rectangle-t-1 {
+    transition-timing-function: ease-in-out;
+    opacity: 0%;
+}
+.bottom {
+    height: 50px;
+    background-color: magenta;
+    position: absolute;
+    margin-top: 1100px;
+}
+.angled {
+    transition-duration: 0.5s;
+}
+:hover.angled {
+    transition-timing-function: ease-in-out;
+    background-color: yellow;
 }

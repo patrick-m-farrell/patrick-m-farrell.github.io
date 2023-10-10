@@ -1,0 +1,77 @@
+body {
+    background-color: magenta;
+}
+.rectangle {
+    background-color: white;
+    height: 825px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: absolute;
+}
+.transition-1 {
+    background-color: magenta;
+    height: 300px;
+    width: 46%;
+    margin-top: 125px;
+    margin-left: 125px;
+    position: absolute;
+    opacity: 100%;
+    transition-duration: 0.5s;
+}
+:hover.transition-1 {
+    transition-timing-function: ease-in-out;
+    opacity: 0%;
+}
+.transition-2 {
+    background-color: magenta;
+    height: 300px;
+    width: 46%;
+    margin-top: 500px;
+    margin-left: 125px;
+    position: absolute;
+    opacity: 100%;
+    transition-duration: 0.5s;
+}
+:hover.transition-2 {
+    transition-timing-function: ease-in-out;
+    opacity: 0%;
+}
+.rectangle-2 {
+    background-color: white;
+    height: 825px;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 55%;
+    margin-right: 50px;
+    position: absolute;
+}
+.transition-3 {
+    background-color: magenta;
+    height: 300px;
+    width: 26%;
+    margin-top: 125px;
+    margin-left: 1025px;
+    position: absolute;
+    opacity: 0%;
+    transition-duration: 0.5s;
+}
+:hover.transition-3 {
+    transition-timing-function: ease-in-out;
+    opacity: 100%;
+}
+.transition-4 {
+    background-color: magenta;
+    height: 300px;
+    width: 26%;
+    margin-top: 500px;
+    margin-left: 1025px;
+    position: absolute;
+    opacity: 0%;
+    transition-duration: 0.5s;
+}
+:hover.transition-4 {
+    transition-timing-function: ease-in-out;
+    opacity: 100%;
+}
