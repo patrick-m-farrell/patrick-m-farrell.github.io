@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "neue-haas-unica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: url;
+}
+    body {
+    font-family: "neue-haas-unica", sans-serif;
+    font-size: 35px;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    line-height: 40px;
+    background: #ebe8e6;
+}
+.rectangle {
+    background-color: #9ff527;
+    height: 8rem;
+    width: 30rem;
+    padding: 7px;
+    padding-top: 4px;
+}
+.rectangle-2 {
+    background-color: #ff8533;
+    color: white;
+    height: 2.7rem;
+    width: 30rem;
+    padding: 7px;
+    padding-top: 4px;
+}
+:hover.rectangle-2 {
+    background-color: #507ad4;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.rectangle-3 {
+    background-color: #ff8533;
+    color: white;
+    height: 2.7rem;
+    width: 30rem;
+    padding: 7px;
+    padding-top: 4px;
+    margin-top: 90%
+}
+.test {
+    background-color: #9ff527;
+
+}
