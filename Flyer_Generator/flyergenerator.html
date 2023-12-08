@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="flyergenerator.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="flyergenerator.js"></script>
+    <title>Flyer Generator</title>
+</head>
+
+<body>
+
+<div class="flex-container">
+
+<div class="left">
+  <div class="flex-container">
+    <div class="logo" id="top"><h5>Flyer Generator</h5></div>
+  </div>
+  <div class="logo" id="instruction"><h5>Select Template</h5></div>
+  <div class="left-outline-1">
+    <button id="button1"><h5>1</h5></button>
+    <button id="button2"><h5>2</h5></button>
+    <button id="button3"><h5>3</h5></button>
+  </div>
+  <div class="logo" id="instruction"><h5>How to Write</h5></div>
+  <div class="left-outline-flex">
+    <div class="left-outline-2">
+      <h5>Create a poem by dragging and dropping any pre-selected <span class="oval purple" >Draggable</span> 
+      words into the containers on the right and by typing in any of your own words in the <span class="oval red">
+      Write-in</span> containers. 
+      <h5></div>
+  </div>
+
+<div class="logo" id="drag"><h5>Word Bank</h5></div>
+<div class="left-outline-3">
+  <div class="left-outline-flex">
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Wine</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Dog</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Drunken</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Decay</h5>
+    </div>
+  </div>
+  <div class="left-outline-flex">
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Snake</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Sweet</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Chant</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Sunset</h5>
+    </div>
+  </div>
+  <div class="left-outline-flex">
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>And</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Or</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Screaming</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Idiot</h5>
+    </div>
+  </div>
+  <div class="left-outline-flex">
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>College</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Urinal</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Moonlight</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>In</h5>
+    </div>
+  </div>
+  <div class="left-outline-flex">
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Potatoes</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Textbooks</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>We</h5>
+    </div>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+      <h5>Alphabetize</h5>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="right">
+
+<!-- Helper Text -->
+<!-- <div class="helper-text"></div> -->
+
+<!-- Flyer 1 -->
+<div class="flyer-1">
+<!-- Line 1 -->
+  <div class="flex-container">
+    <label for="userInput"></label>
+      <input type="text" id="userInput" name="userInput">
+    <label for="userInput"></label>
+      <input type="text" id="userInput" name="userInput">
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+<!-- Line 2 -->
+  <div class="flex-container">
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+<!-- Line 3 -->
+  <div class="flex-container">
+    <label for="userInput"></label>
+      <input type="text" id="userInput" name="userInput">
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+<!-- Line 4 -->
+<div class="flex-container">
+  <label for="userInput"></label>
+    <input type="text" id="userInput" name="userInput">
+  <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+<!-- Line 5 -->
+<div class="flex-container">
+  <label for="userInput"></label>
+    <input type="text" id="userInput" name="userInput">
+  <label for="userInput"></label>
+    <input type="text" id="userInput" name="userInput">
+</div>
+</div>
+<!-- Flyer 2 -->
+<div id="flyer-2">
+<!-- Line 1 -->
+  <div class="flex-container">
+    <label for="userInput"></label>
+      <input type="text" id="userInput" name="userInput">
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+<!-- Line 2 -->
+  <div class="flex-container">
+    <label for="userInput"></label>
+      <input type="text" id="userInput" name="userInput">
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+<!-- Line 3 -->
+  <div class="flex-container">
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <label for="userInput"></label>
+      <input type="text" id="userInput" name="userInput">
+  </div>
+<!-- Line 4 -->
+  <div class="flex-container">
+    <label for="userInput"></label>
+      <input type="text" id="userInput" name="userInput">
+      <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+<!-- Line 5 -->
+  <div class="flex-container">
+    <label for="userInput"></label>
+      <input type="text" id="userInput" name="userInput">
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <label for="userInput"></label>
+      <input type="text" id="userInput" name="userInput">
+  </div>
+</div>
+<!-- Flyer 3 -->
+<div id="flyer-3">
+<!-- Line 1 -->
+  <div class="flex-container">
+    <label for="userInput"></label>
+      <input type="text" id="userInput" name="userInput">
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+<!-- Line 2 -->
+  <div class="flex-container">
+    <input type="text" id="userInput" name="userInput">
+    <label for="userInput"></label>
+    <input type="text" id="userInput" name="userInput">
+      <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+<!-- Line 3 -->
+  <div class="flex-container">
+    <input type="text" id="userInput" name="userInput">
+      <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <input type="text" id="userInput" name="userInput">
+    </div>
+<!-- Line 4 -->
+  <div class="flex-container">
+    <input type="text" id="userInput" name="userInput">
+      <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+<!-- Line 5 -->
+  <div class="flex-container">
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+</div>
+</body>
+</html>

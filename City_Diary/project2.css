@@ -1,0 +1,139 @@
+
+@font-face {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial';
+    src: url(/ABCDiatypeRoundedSemi-Mono-Medium-Trial.otf) format(woff);
+}
+    body, html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    overflow: hidden;
+}
+h1 {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
+    font-size: 5vh;
+    color: white;
+    margin-top: 0;
+}
+h3 {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
+    font-size: 2.5vh;
+    color: white;
+    margin: 0;
+}
+h2 {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
+    font-size: 2.5vh;
+    color: black;
+    margin: 0;  
+}
+h4 {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
+    font-size: 2.5vh;
+    color: #FAD40E;
+    margin: 0;     
+}
+h5 {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
+    font-size: 2.5vh;
+    color: #0E97FA;
+    margin: 0;  
+}
+.split {
+    display: flex;
+    height: 100%;
+}
+.left, .right {
+    overflow-y: auto;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1.5%;
+}
+.left {
+    margin-top: 1%;
+    background-color: #FAF6E1;
+    height: 100%;
+}
+.right {
+    margin-top: 1%;
+    background-color: #EEF6FB;
+    height: 100%;
+}
+.container-topbar {
+    height: 2.5%;
+    position: relative;
+}
+.left-topbar {
+    display: flex;
+    background-color: #FAD40E;
+    position: fixed;
+    width: 50%;
+    padding: .5%;
+    padding-left: 2vw;
+    left: 0;
+    top: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.right-topbar {
+    background-color: #0E97FA;
+    position: fixed;
+    width: 50%;
+    padding: 0.5%;
+    padding-left: 2vw;
+    right: 0;
+    top: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.timeline-container {
+    height: 5%;
+    position: relative;
+}
+.timeline {
+    background-color: #F0EFEF;
+    position: fixed;
+}
+.content-left {
+    margin-top: 1.5%;
+    height: 100%;
+    margin-top: 1.5%;
+}
+.content-right {
+    margin-top: 1.5%;
+    height: 100%;
+}
+iframe {
+    border-radius: 10px;
+    margin-bottom: 2.5%;
+}
+img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2.5%;
+}
+#btw {
+    height: 2.5%;
+    width: 10vw;
+    color: #6B6767;
+    border-radius: 100%;
+    position: fixed;
+}
+.draggable {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    cursor: grab;
+  }
+video {
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 2.5%;
+}
+element::-webkit-scrollbar {
+    display: none;
+}

@@ -13,7 +13,8 @@
     background: #ebe8e6;
 }
 .rectangle {
-    background-color: #9ff527;
+    background-color: rgb(40, 39, 39);
+    color: white;
     height: 8rem;
     width: 30rem;
     padding: 7px;
@@ -59,7 +60,7 @@
 #rectangle-5 {
     background-color: #ce95ed;
     color: white;
-    height: 2.7rem;
+    height: 7.9rem;
     width: 30rem;
     padding: 7px;
     padding-top: 4px;

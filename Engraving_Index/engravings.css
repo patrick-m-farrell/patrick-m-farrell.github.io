@@ -1,0 +1,308 @@
+body {
+    margin-left: 1.25vw;
+    margin-top: 3vh;
+    margin-right: 1.25vw;
+    max-width: 100%
+}
+@font-face {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial';
+    src: url(/ABCDiatypeRoundedSemi-Mono-Medium-Trial.otf) format(woff);
+}
+h1 {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
+    font-size: 8vh;
+    line-height: 7.5vh;
+    color: white;
+    font-weight: 500;
+    user-select: none;
+    margin-top: 2vh;
+    margin-bottom: 1.5vh;
+    margin-left: 1vw
+}
+h2 {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
+    font-size: 5vh;
+    color: #D9D9D9;
+    margin-top: 0;
+}
+h3 {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
+    font-size: 2.5vh;
+    color: #D9D9D9;
+    font-weight: 500;
+}
+h4 {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
+    font-size: 2.5vh;
+    color: #ffffff; 
+    font-weight: 500;
+}
+h4#info {
+    margin-bottom: 2vh;
+}
+h5 {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
+    font-size: 5vh;
+    line-height:6.5vh;
+    color: #D9D9D9;
+    font-weight: 500;
+    user-select: none;
+    margin-top: 2vh;
+    margin-bottom: 1.5vh;
+    margin-left: 1vw
+}
+hr {
+    border: none;
+    height: 0.25vw;
+    background-color: #D9D9D9;
+    border-radius: 2px;
+}
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+.left {
+    flex: 1;
+}
+.right {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: flex;
+    margin-top: 0px;
+
+}
+.ny {
+    border-radius: 20px;
+    background: #0D5FBF;
+    margin-bottom: 1.5vh;
+    width: 52vw;
+}
+.ri {
+    border-radius: 20px;
+    background: #EE6D0F;
+    margin-bottom: 1.5vh;
+    width: 52vw;
+}
+.ma {
+    border-radius: 20px;
+    background: #A35AFF;
+    margin-bottom: 1.5vh;
+    width: 52vw;
+}
+.saratoga-1 {
+    margin-top: 2vh;
+    height: 50vh;
+    white-space: nowrap;
+}
+.saratoga-2 {
+    height: 50vh;
+    white-space: nowrap;
+}
+.courthouse {
+    height: 42vh;
+    margin-bottom: 8vh;
+    }
+.brown {
+    margin-top: 2vh;
+    height: 27.5vh;
+}
+.state {
+    height: 72.5vh;
+    margin-bottom: 8vh;
+}
+.harvard-1 {
+    margin-top: 2vh;
+    height: 19.5vh;
+}
+.harvard-2 {
+    height: 19.5vh;
+}
+.library {
+    height: 50vh;
+}
+.text {
+    padding: 0.5em;
+    color: white;
+}
+.label {
+    display: flex;
+    text-align: right;
+    margin-left: auto;
+}
+.title {
+    display: flex;
+    width: 13vw;
+    height: 5vh;
+    background-color: #D9D9D9;
+    border: 0.25vw solid #D9D9D9;
+    border-radius: 50px;
+    margin-bottom: 20vh;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.25%;
+}
+#nybutton {
+    display: flex;
+    width: 4vw;
+    height: 5vh;
+    border: 0.25vw solid #D9D9D9;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.25%;
+    cursor: pointer;
+}
+#nybutton:hover {
+    background-color: #d9d9d9;
+}
+#nybutton:hover h3 {
+    color: white;
+}
+#ributton {
+    display: flex;
+    width: 4vw;
+    height: 5vh;
+    border: 0.25vw solid #D9D9D9;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.25%;
+    cursor: pointer;
+}
+#ributton:hover {
+    background-color: #d9d9d9;
+}
+#ributton:hover h3 {
+    color: white;
+}
+#mabutton {
+    display: flex;
+    width: 4vw;
+    height: 5vh;
+    border: 0.25vw solid #D9D9D9;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.25%;
+    cursor: pointer;
+    color: #D9D9D9;
+}
+#mabutton:hover {
+    background-color: #d9d9d9;
+}
+#mabutton:hover h3 {
+    color: white;
+}
+a#about {
+    display: flex;
+    margin-left: auto;
+}
+.about {
+    display: flex;
+    width: 6vw;
+    height: 5vh;
+    border: 0.25vw solid #D9D9D9;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+.about:hover {
+    background-color: #d9d9d9;
+}
+.about:hover h3 {
+    color: white;
+}
+.back {
+    display: flex;
+    width: 6vw;
+    height: 5vh;
+    border: 0.25vw solid white;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+.back#aboutb {
+    border: 0.25vw solid #d9d9d9;  
+}
+:hover.back {
+    background-color: white;
+    color: #d9d9d9
+}
+:hover.button {
+    background-color: #D9D9D9;
+    color: white;
+}
+:hover.about {
+    background-color: #D9D9D9;
+    color: white;
+}
+.button-container {
+    display: flex;
+}
+body#nypage {
+    background-color:#0D5FBF;
+    height: 100%;
+}
+body#mapage {
+    background-color:#A35AFF;
+    height: 100%;
+}
+iframe {
+    border-radius: 20px;
+    margin-bottom: 3vh;
+}
+.outline {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    border: 0.25vw solid white;
+    border-radius: 20px;
+    padding: 0.25vw;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 3vh
+}
+a {
+    text-decoration: none;
+}
+.description {
+    display: flex;
+    align-items: flex-start;
+    border: 0.25vw solid white;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 3vh;
+    align-items: center;
+    padding-left: 1.5vh;
+    box-sizing: border-box;
+}
+#scrollButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    background-color: green;
+}
+
+#about-text {
+   justify-content: flex-end
+}
+.info-flex {
+    flex: 1;
+    gap: 1.25vw;
+    max-width: 100%;
+}
+.flex-container-gap {
+    display: flex;
+    gap: 1.25vw;
+}
+::selection {
+    background-color: #D9D9D9;
+    color: white;
+}

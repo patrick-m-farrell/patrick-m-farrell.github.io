@@ -1,0 +1,86 @@
+    @font-face {
+            font-family: "monotype-grotesque", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            src: url;
+    }
+    @font-face {
+      font-family: "freight-text-pro", serif;
+      font-weight: 400;
+      font-style: normal;
+      src: href="https://use.typekit.net/nwb5pvy.css";
+    }
+    body {
+        font-family: "monotype-grotesque", Arial, sans-serif;
+        background-color: #f0f0f2;
+        margin-right: 40%;
+        margin-left: 2%;
+        margin-bottom: 50px;
+        margin-top: 25px;
+    }
+    a {
+        background-color: #cfcfd1;
+        color: #3e3e40;
+        text-decoration: none;
+        padding: 1px;
+        
+    }
+    a:hover {
+        text-decoration: none;
+        padding: 1px;
+        background-color: #62ff00;
+    }
+    p {
+      font-size: 20px;;
+      margin-top: 0px;
+      margin-bottom: 1px;
+      color: #3e3e40;
+    }
+  h1 {
+    font-family: "monotype-grotesque";
+    font-weight: normal;
+    color: white;
+    text-align: center;
+  }
+  h6 {
+    font-family: "freight-text-pro";
+    color: #3e3e40;
+    font-weight: normal;
+    font-size: 22px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+  }
+  h5 {
+    font-family: "freight-text-pro";
+    font-weight: normal;
+    font-size: 21px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #3e3e40;
+    line-height: 23px;
+  }
+  .underline {
+    text-decoration: underline dashed;
+    color: blue;
+  }
+  .title {
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #1b1b1c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+::selection {
+    background-color: #62ff00;
+    color: black;
+}
+hr {
+  background: #3e3e40;
+  border: 0;
+  height: 1px;
+}
+.indent {
+  text-indent: 25px;
+}

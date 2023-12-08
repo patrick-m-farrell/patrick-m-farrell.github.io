@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="flyergenerator.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="flyergenerator.js"></script>
+    <title>Flyer Generator</title>
+</head>
+<body>
+<div class="flex-container">
+  <div class="left">
+    <hr>
+    <h1>Adjectives</h1>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+        <h5>Rainy</h5>
+    </div>
+    <hr>
+    <h1>Nouns</h1>
+    <div id="draggable" draggable="true" ondragstart="drag(event)">
+        <h5>Storm</h5>
+    </div>
+    <h4>Drag and drop words to compose a flyer.</h4>
+    <div class="outline">
+    <div id="droppable" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <div class="generate"><h5>Generate</h5></div>
+    </div>
+  <div class="right">
+    <div class="flyer-placeholder"><label for="userInput"></label></div>
+  </div>
+</div>
+</div>
+<!-- <div class="landing">This is a test!</div> -->
+</body>
+</html>
