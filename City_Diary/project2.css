@@ -4,16 +4,28 @@
     src: url(/ABCDiatypeRoundedSemi-Mono-Medium-Trial.otf) format(woff);
 }
     body, html {
-    margin: 0px;
+    margin-left: 0px;
+    margin-bottom: 10vh;
+    width: 100%;
     padding: 0px;
     height: 100%;
     overflow: hidden;
 }
+p {
+    font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
+    font-size: 1.5vh;
+    margin-top: 0;
+    margin-bottom: 3.5%;
+    text-align: center;
+}
 h1 {
     font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
-    font-size: 5vh;
-    color: white;
+    font-size: 8vh;
+    color: black;
     margin-top: 0;
+    margin-bottom: 4%;
+    letter-spacing: -2.5px;
+    line-height: 7.5vh;
 }
 h3 {
     font-family: 'ABC Diatype Rounded Semi-Mono Unlicensed Trial', sans-serif;
@@ -59,6 +71,7 @@ h5 {
     margin-top: 1%;
     background-color: #EEF6FB;
     height: 100%;
+    margin-bottom: 10vh;
 }
 .container-topbar {
     height: 2.5%;
@@ -97,8 +110,7 @@ h5 {
 }
 .content-left {
     margin-top: 1.5%;
-    height: 100%;
-    margin-top: 1.5%;
+    height: 100vh;
 }
 .content-right {
     margin-top: 1.5%;
@@ -112,28 +124,49 @@ img {
     height: auto;
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 2.5%;
+    margin-bottom: 1.5%;
 }
 #btw {
     height: 2.5%;
     width: 10vw;
-    color: #6B6767;
+    color: white;
     border-radius: 100%;
-    position: fixed;
+    position: absolute;
 }
-.draggable {
-    width: 100px;
+.drag {
     height: 100px;
-    background-color: lightblue;
+    width: 100px;
+    background-color: green;
     cursor: grab;
-  }
+}
 video {
     width: 100%;
     height: auto;
     display: flex;
     border-radius: 10px;
-    margin-bottom: 2.5%;
+    margin-bottom: 1.5%;
 }
-element::-webkit-scrollbar {
-    display: none;
+::-webkit-scrollbar {
+    display: none
+}
+.bottom {
+    height: 10vh;
+}
+.center {
+    text-align: center;
+}
+.diary {
+    position: absolute;
+    bottom: 1.5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 23.5px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(221, 221, 221, 0.50);
+    padding: .5%;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    box-sizing: border-box;
 }

@@ -13,11 +13,15 @@ Right.addEventListener('scroll', function (e) {
 
 draggableElements.forEach((element) => {
   element.addEventListener('dragstart', (e) => {
-    e.dataTransfer.setData('text/plain', ''); // For Firefox compatibility
+    e.dataTransfer.setData('text/plain', '')
     element.classList.add('dragging');
   });
 
   element.addEventListener('dragend', () => {
     element.classList.remove('dragging');
   });
+});
+
+
+$('.drag').find('.draggable-item').draggable({
 });

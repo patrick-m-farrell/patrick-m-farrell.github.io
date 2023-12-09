@@ -243,13 +243,17 @@ a#about {
 .button-container {
     display: flex;
 }
-body#nypage {
+body.nypage {
     background-color:#0D5FBF;
     height: 100%;
 }
-body#mapage {
+body.mapage {
     background-color:#A35AFF;
     height: 100%;
+}
+body.ripage {
+    background-color:#EE6D0F;
+    height: 100%; 
 }
 iframe {
     border-radius: 20px;
